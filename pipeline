@@ -1,0 +1,6 @@
+head -23 pipe| 
+tail -20 |
+sed 's/n/ /g'|
+tr v ' ' |
+sed 's/[yu]//g'|
+sed 's/X/O/g'

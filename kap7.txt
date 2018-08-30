@@ -1,0 +1,209 @@
+Opgave 1. a
+
+Brug kommandoen cat til at:
+Se indholdet af fil1
+Se indholdet af fil1, fil2 og fil3 på én gang
+Se indholdet af filen lark
+
+Opgave 1. b
+
+Brug more eller pg til at se indholdet af filen lark
+
+Opgave 1. c
+
+Vis de første 4 linier af lark
+
+Vis de sidste 4 linier af lark
+
+
+
+Opgave 2. a
+
+Opret et underkatalog med navnet links
+Opret  i links-kataloget et ekstra link med navnet lark.ln til filen lark i hjemmekataloget.
+Sammenlign i-node nummeret og filstørrelsen til de to filer.
+
+Opgave 2. b
+
+Opret  i links-kataloget et symbolsk link med navnet lark.sy til filen lark
+Sammenlign i-node nummeret og filstørrelsen til de to filer i links
+
+Opgave 2. c
+Kopier filen lark i hjemmekataloget til links-kataloget.
+Sammenlign i-node nummeret og filstørrelsen til de tre filer i links
+Vis de første 4 linier i lark.ln
+Vis de første 4 linier i lark.sy
+
+Omdøb filen lark i hjemmekataloget til navnet lark0.
+Vis de første 4 linier i lark.ln
+Vis de første 4 linier i lark.sy
+
+Find en forklaring på hvad der er sket.
+
+Slet filen lark0 i hjemmekataloget 
+Vis de første 4 linier i lark.ln
+Vis de første 4 linier i lark.sy
+
+Find en forklaring på hvad der er sket.
+
+Kopier filen saturday i hjemmekataloget til lark (også i hjemmekataloget).
+Vis de første 4 linier i lark.ln
+Vis de første 4 linier i lark.sy
+
+Find en forklaring på hvad der er sket.
+
+
+
+Opgave 3. a
+Udskriv fra filen:
+bibel
+linier, som INDEHOLDER tekststrengen: 
+æbletræ
+
+Udskriv også med angivelse af linienummer
+
+
+Opgave 3. b
+Udskriv fra filen:
+bibel
+antallet af de linier, som IKKE indeholder tekststrengen: 
+æbletræ
+
+Opgave 3. c
+Udskriv fra filerne:
+lark1 lark2 ...
+de linier, som indeholder tekststrengen: 
+lærke
+
+Opgave 3. d
+Udskriv filnavne på filer som indeholder tekststrengen: 
+lærke
+
+Opgave 3. e
+Udskriv for hver fil antallet af linier som indeholder tekststrengen: 
+lærke
+
+
+Opgave 5. a
+Find alle filer med navnet txt i
+/home
+
+Opgave 5. b
+Find alle filer der er ejet af brugeren: brugera9 i
+/home/guest
+
+Opgave 5. c
+Find alle filer med 2 links i dit hjemmekatalog
+
+Opgave 5. d
+Find alle filer der ikke er ejet af dig (=dit brugernavn) i /home/guest
+
+Opgave 5. e
+Find alle filer med et c i slutningen af navnet.
+
+Opgave 5. f
+Vis indholdet af alle filer, hvis navn starter med fil
+
+
+
+Opgave 6. a
+Sorter linierne i filen dyr1 i faldende alfabetisk orden
+
+Opgave 6. b
+Sorter linierne i filen dyr1 i numerisk orden
+
+Opgave 6. c
+Sorter linierne i filen dyr1 i numerisk orden efter sidste felt i linierne
+
+Opgave 6. d
+Sorter linierne i filen dyr1 i numerisk orden efter sidste felt. 
+De linier, hvor det sidste felt har samme værdi, skal indbyrdes sorteres efter første tal-felt.
+
+Opgave 6. e
+Sorter filerne i hjemmekataloget efter filstørrelse.
+
+
+
+Opgave 7. a
+Udskriv linierne i filen dyr med udeladelse af dublet-linier.
+
+Opgave 7. b
+Udskriv unikke linier i filen dyr
+
+Opgave 7. c
+Udskriv linierne i filen dyr med antallet af forekomster.
+
+Opgave 7. d
+Iagttag indholdet af filen oftest
+Hvor kommer inddata fra?
+
+Eksekver filen med kommandoen:
+oftest < dyr
+
+Iagttag igen indholdet af oftest
+
+
+
+
+Opgave 8. a
+Sammenlign filerne lark1 og lark2 ved hjælp af kommandoerne
+cmp
+diff
+sdiff
+comm
+
+Opgave 8. b
+Undersøg om filerne sat1 og sat2 er ens.
+
+Opgave 8. c
+Undersøg om filerne 
+ab og ba er ens.
+
+
+Opgave 9. a
+Undersøg filtypen på 
+/bin/who
+/etc/passwd
+$HOME/main.c
+
+Opgave 9. b
+Undersøg indholdet af tekstfilen kap7.txt
+
+Opgave 9. c
+Undersøg indholdet af Word-dokumentet kap7.doc
+
+
+Opgave 10. a
+Hvor mange linier, ord og tegn er der i filen  bibel
+
+Opgave 10. b
+Hvor mange linier, ord og tegn er der i filerne :
+kap7.doc
+kap7.txt
+
+Opgave 10. c
+Find ud af hvor mange forskellige dyr, der er repræsenteret i filen dyr
+
+
+
+Opgave 11. a
+Undersøg med kommandoen sum om filerne ab og ba er ens.
+
+Opgave 11. b
+Undersøg med kommandoen sum om filerne a1 og a2 er ens.
+
+Opgave 11. c
+Hvilke af følgende filer har fuldstændig samme indhold:
+giraf.a
+giraf.b
+giraf.ftp
+giraf.jpg
+giraf2.jpg
+
+
+
+
+
+Kapitel 7.doc
+
+

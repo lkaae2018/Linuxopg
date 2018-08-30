@@ -1,0 +1,124 @@
+<BASE HREF="http://forbrugersikkerhed.isaq.dk/">
+<HTML><HEAD><TITLE>Sportest</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#990000" VLINK="#0099CC" ALINK="#990000" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="480">
+<TR><TD WIDTH="1" COLSPAN=2><IMG SRC="http://www.forbrugersikkerhed.dk/images/spacer.gif" ALIGN="MIDDLE" WIDTH="1" HEIGHT="30" HSPACE="0" VSPACE="0"></TD></TR>
+<TR><TD WIDTH="260" COLSPAN=2 ALIGN="left"><IMG SRC="http://www.forbrugersikkerhed.dk/images/main/browser_afslorer.gif" WIDTH="260" HEIGHT="131" HSPACE="0" VSPACE="0"></TD></TR>
+<TR><TD WIDTH="1" COLSPAN=2><IMG SRC="http://www.forbrugersikkerhed.dk/images/spacer.gif" ALIGN="MIDDLE" WIDTH="1" HEIGHT="30" HSPACE="0" VSPACE="0"></TD></TR>
+<TR><TD WIDTH="30"><IMG SRC="http://www.forbrugersikkerhed.dk/images/spacer.gif" ALIGN="MIDDLE" WIDTH="30" HEIGHT="1" HSPACE="0" VSPACE="0"></TD>
+<TD WIDTH="450"><FONT FACE="verdana, charcoal, helvetica, arial" SIZE="2" COLOR="#000000">
+<ul>
+<li><b>Dette er første gang du besøger denne side</b><br>
+Hvis din browser er indstillet til at acceptere cookies, kan vi se, hvor mange gange du før har været på denne side.<br><br>
+
+
+	<li><b>Din IP-adresse:</b> 193.88.184.8<br>
+	Din Internetudbyder (evt. dit firma/skole/universitet) lader dig være 'på Internet' gennem denne adresse. Denne kan være delt af flere brugere (ikke samtidigt), men kan også være din specifikke.<br>
+	<br><li><b>Host:</b> firewall2.superusers.dk<br>
+	<br><li><b>User Agent (Browser):</b> Mozilla/3.01Gold (X11; I; HP-UX B.11.00 9000/712)
+	<br><br><li><b>Dit operativsystem er:</b> Unix HP
+	<br><br><li><b>Siden som har henvist dig til denne side:</b> http://www.forbrugersikkerhed.dk/spor/main.html
+	<br><br><li><b>Dato og tid på din computer:</b> Fri Jan 14 10:56:50 MET 2000
+<br><br><li><b>Din browser understøtter ikke visning af Computerens CPU-type</b>
+<br><br><li><b>Browser navn:</b> Netscape
+
+	<br><br><li><b>HTTP Accept:</b> image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*
+	<br><br><li><b>Connection:</b> Keep-Alive
+	<br><br><li><b>Via:</b> 1.0 FIREWALL2
+<br><br><li><b>WhoIs 193.88.184.8:</b></ul></td></tr></table>	<table border="0" width="480" cellpadding="0" cellspacing="0"><tr><td WIDTH="30"><img SRC="http://www.forbrugersikkerhed.dk/images/spacer.gif" ALIGN="MIDDLE" WIDTH="30" HEIGHT="1" HSPACE="0" VSPACE="0"></td><td bgcolor="#eeeeee"><ul>
+	<pre>[joshua.ripe.net]
+
+% Rights restricted by copyright. See http://www.ripe.net/ripencc/pub-services/db/copyright.html
+
+inetnum:     193.88.184.0 - 193.88.184.255
+netname:     SUNET
+descr:       SuperUsers a/s
+descr:       UNIX, C, C++ and X Window System
+descr:       Development, Software, Training & Consultancy
+country:     DK
+admin-c:     MC10-RIPE
+tech-c:      MC10-RIPE
+tech-c:      EM7-RIPE
+tech-c:      PT5-RIPE
+status:      ASSIGNED PA
+mnt-by:      TDK-MNT
+changed:     michael@superusers.dk 19950517
+changed:     netpasser-robert@dknet.dk 19950517
+changed:     sp@DK.net 19990302
+source:      RIPE
+
+route:       193.88.0.0/15
+descr:       Tele Danmark
+origin:      AS3292
+mnt-by:      AS3292-MNT
+changed:     jesper@skriver.dk 19981016
+changed:     jesper@skriver.dk 19990619
+source:      RIPE
+
+person:      Michael Christensen
+address:     SuperUsers a/s
+address:     Karlebogaard
+address:     Karlebovej 91
+address:     DK-3400 Hilleroed
+address:     Denmark
+phone:       +45 45 66 16 66
+fax-no:      +45 45 66 06 03
+e-mail:      michael@superusers.dk
+nic-hdl:     MC10-RIPE
+mnt-by:      DKNET-MNT
+changed:     michael@superusers.dk 19930715
+changed:     netpasser-robert@dknet.dk 19930805
+changed:     netpasser-robert@dknet.dk 19931013
+source:      RIPE
+
+person:      Eric Mosegaard
+address:     SuperUsers a/s
+address:     Karlebogaard
+address:     Karlebovej 91
+address:     DK-3400 Hilleroed
+address:     Denmark
+phone:       +45 45 66 16 66
+fax-no:      +45 45 66 06 03
+e-mail:      eric@superusers.dk
+nic-hdl:     EM7-RIPE
+mnt-by:      DKNET-MNT
+changed:     michael@superusers.dk 19930715
+changed:     netpasser-robert@dknet.dk 19930805
+changed:     netpasser-robert@dknet.dk 19931013
+source:      RIPE
+
+person:      Peter Torngaard
+address:     SuperUsers a/s
+address:     Karlebogaard
+address:     Karlebovej 91
+address:     DK-3400 Hilleroed
+address:     Denmark
+phone:       +45 45 66 16 66
+fax-no:      +45 45 66 06 03
+e-mail:      pt@superusers.dk
+nic-hdl:     PT5-RIPE
+mnt-by:      DKNET-MNT
+changed:     michael@superusers.dk 19930715
+changed:     netpasser-robert@dknet.dk 19930805
+changed:     netpasser-robert@dknet.dk 19931013
+source:      RIPE
+
+
+</pre></ul></td></tr></table>
+	<br>
+	<table border="0" width="480" cellpadding="0" cellspacing="0"><tr><td WIDTH="30"><img SRC="http://www.forbrugersikkerhed.dk/images/spacer.gif" ALIGN="MIDDLE" WIDTH="30" HEIGHT="1" HSPACE="0" VSPACE="0"></td><td><font FACE="verdana, charcoal, helvetica, arial" SIZE="2" COLOR="#000000">
+	Visse typer browsere kan vise en liste over de installerede "plug-ins". Det er tillægsprogrammer til browseren, så den kan vise flere filtyper end den først var programmeret til at kunne.<br>
+	Eksempler på dette er Flash, Quicktime, Adobe Acrobat Reader, Realplayer, og en lang række video- og lydformater.<br>
+	
+	Hvis din browser understøtter visning af dine installerede plug-ins, så er der et link vist herunder.<br><br>
+	Visse typer af browsere kan tillige levere en komplet liste over filtyper som computeren kan forstå.
+	Disse filtyper hedder som fællesbetegnelse "Mimetypes" (i denne liste vil også plug-ins indgå).<br>
+	Hvis din browser understøtter visning af dine mimetypes, så vises de på siden, der linkes til herunder.<br><br>
+	
+	<a href="mimetype.html">Vis mimetypes og plug-ins.</a><br><br>
+
+	</td>
+</tr>
+</table>
+</body>
+</html>

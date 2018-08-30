@@ -1,0 +1,12 @@
+De naeste linier skal sorteres:
+
+c) Dette er det sidste punkt.
+2) Her har vi et nummereret punkt 2
+10) Her har vi et nummereret punkt 10
+06) Her har vi et nummereret punkt 06
+20) Her har vi et nummereret punkt 20
+1) Her har vi et nummereret punkt 1
+b) Det andet punkt skal staa her.
+a) Punkt a skal staa foerst.
+
+Punkterne staar ikke i alfabetisk raekkefoelge.

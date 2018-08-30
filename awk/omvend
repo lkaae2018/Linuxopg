@@ -1,0 +1,9 @@
+function omvend(t) {
+ny = "" 
+lang = length(t)
+for ( i = lang ; i >= 1 ; i-- ) 
+   ny = ny substr(t,i,1)
+return toupper(ny)
+}
+
+	{	print omvend($0); }

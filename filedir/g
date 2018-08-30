@@ -1,0 +1,4 @@
+#!/bin/sh
+echo Her er et script med navnet $0
+echo Du har eksekveret det i en proces med PID: $$
+ps -fp $$
