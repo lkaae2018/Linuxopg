@@ -1,0 +1,41 @@
+Like many people I use OpenDNS instead of my internet provider’s DNS. In addition to the speed gains I get (because it’s faster than my provider’s DNS) I like to look at the reports OpenDNS provides. In order for the reports to work OpenDNS needs my IP address. But my IP address is dynamic so every time it changes my reports break. What did I do about? I set up my Raspberry Pi to automatically update my IP address on OpenDNS. Here’s how I did it.
+
+From the command line type the following and hit enter:
+sudo apt-get install ddclient
+When prompted to continue just say yes. It may take a minute for the package to install so be patient.
+When the install completes the configuration interface will load. Keep tabbing to OK and hitting enter until the the interface closes.
+Once back at the command line type the following and hit enter:
+sudo nano /etc/ddclient.conf
+Enter the following in the ddclient.conf:
+#opendns
+daemon=3600
+syslog=yes
+mail=root
+mail-failure=root
+pid=/var/run/ddclient.pid
+use=web, web=myip.dnsomatic.com
+ssl=yes
+server=updates.opendns.com
+protocol=dyndns2
+login=OPENDNS ACCOUNT EMAIL ADDRESS
+password='PASSWORD'
+NAME OF NETWORK
+OPENDNS ACCOUNT EMAIL ADDRESS should be the email account you use for your OpenDNS account.
+PASSWORD should be your password in single quotes (‘ ‘).
+NAME OF NETWORK should be the name you gave your network in your OpenDNS settings.
+
+Hit CTRL-X to exit nano. When prompted to save be sure to say yes and hit enter to confirm the file name.
+From the command line type the following and hit enter:
+sudo nano /etc/default/ddclient
+Find run_ipup and change the setting to false.
+Find run_daemon and change the setting to true.
+Find daemon_interval and change the setting to 3600.
+Hit CTRL-X to exit nano. When prompted to save be sure to say yes and hit enter to confirm the file name.
+Restart ddclient by typing the following at the command line and hitting enter:
+sudo /etc/init.d/ddclient restart
+If all went well you’ll see the following line and then be back at the command line:
+[ ok ] Restarting ddclient (via systemctl): ddclient.service.
+This will now update your IP address on OpenDNS every 60 minutes. If you want to change the interval then change the daemon setting in /etc/ddclient.conf and the daemon_interval setting in /etc/default/ddclient to the desired time (in seconds).
+
+To see if this all works type the following at the command line and hit enter:
+sudo ddclient -daemon=0 -debug -verbose -noquiet
