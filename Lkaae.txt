@@ -1,0 +1,3 @@
+echo "Hej med dig"
+echo
+echo "Slut!!!!"
